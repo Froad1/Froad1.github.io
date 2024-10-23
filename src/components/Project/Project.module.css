@@ -1,0 +1,32 @@
+
+.project {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: 2px white solid;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover{
+    border: 2px rgb(247, 159, 255) solid;
+    transform: scale(1.1);
+}
+
+.project img {
+    width: 50px;
+    background: white;
+    border-radius: 1rem;
+}
+
+.project p {
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .project:hover{
+        transform: scale(1.05);
+    }
+}
